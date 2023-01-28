@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import styles from './styles/styles.module.scss';
+import styles from './styles/styles.module.sfecss';
 import PropTypes from 'prop-types';
 
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
@@ -73,7 +73,7 @@ class App extends Component {
   }
 }
 
-App.protoType = {
+App.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
